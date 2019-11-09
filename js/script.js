@@ -289,7 +289,7 @@ jQuery(function($) {
             $('.cas-dictionary').owlCarousel({
                 loop: true,
                 responsiveClass: true,
-                nav: true,
+                nav: false,
                 dots: false,
                 smartSpeed: 1000,
                 margin: 50,
@@ -318,7 +318,7 @@ jQuery(function($) {
             $('.cas-menu').owlCarousel({
                 loop: true,
                 responsiveClass: true,
-                nav: true,
+                nav: false,
                 dots: false,
                 smartSpeed: 1000,
                 margin: 50,
@@ -339,41 +339,6 @@ jQuery(function($) {
                     },
                     0: {
                         items: 1,
-                    }
-                },
-            });
-            $('.cas-gallery').owlCarousel({
-                loop: false,
-                responsiveClass: true,
-                nav: true,
-                items: 1,
-                dots: false,
-                smartSpeed: 500,
-                margin: 0,
-                autoplay: false,
-                center:true,
-                /*slideBy: 4,*/
-                autoplayTimeout: 5000,
-                navClass: ["sl-arrow prev", "sl-arrow next"],
-                navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-                responsive: {
-                    1700: {
-                        stagePadding: 500,
-                    },
-                    1199: {
-                        stagePadding: 300,
-                    },
-                    991: {
-                        stagePadding: 250,
-                    },
-                    767: {
-                        stagePadding: 200,
-                    },
-                    479: {
-                        stagePadding: 120,
-                    },
-                    0: {
-                        stagePadding: 50,
                     }
                 },
             });
