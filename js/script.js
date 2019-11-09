@@ -287,11 +287,11 @@ jQuery(function($) {
                 }
             })*/
             $('.cas-dictionary').owlCarousel({
-                loop: false,
+                loop: true,
                 responsiveClass: true,
                 nav: true,
                 dots: false,
-                smartSpeed: 500,
+                smartSpeed: 1000,
                 margin: 50,
                 autoplay: true,
                 /*slideBy: 4,*/
@@ -316,11 +316,11 @@ jQuery(function($) {
                 },
             });
             $('.cas-menu').owlCarousel({
-                loop: false,
+                loop: true,
                 responsiveClass: true,
                 nav: true,
                 dots: false,
-                smartSpeed: 500,
+                smartSpeed: 1000,
                 margin: 50,
                 autoplay: true,
                 /*slideBy: 4,*/
