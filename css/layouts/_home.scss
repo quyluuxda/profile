@@ -772,8 +772,8 @@ footer{
 	border-radius: 50%;
 	margin-bottom: 20px;
 	transition: all 0.5s linear;
-	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-	  filter: grayscale(100%);
+	// -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	//   filter: grayscale(100%);
 	@media(max-width:991px){
 		max-width: 100px!important;
 	}
